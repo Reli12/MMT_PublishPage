@@ -16,11 +16,11 @@ function biggerPicture(flag,img){
     if(flag==1){
         img.style.transform = "scale(1.5)";
         // Animation effect 
-        img.style.transition = "transform 0.25s ease";
+        img.style.transition = "transform 1s ease";
         flag=0;
     }else{
         img.style.transform = "scale(1)";
-        img.style.transition = "transform 0.25s ease";
+        img.style.transition = "transform 1s ease";
         flag=1;
     }
 }

@@ -10,13 +10,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Dorijan_Polanc</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light NavBg">
       <a class="navbar-brand" href="#"
-        ><img class="Logo" src="../Images/FeritLogo.png" alt="ferit logo"
+        ><img class="Logo" src="FeritLogo.png" alt="ferit logo"
       /></a>
       <button
         class="navbar-toggler"
@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/index.html"
+            <a class="nav-link" href="index.html"
               >Početna <span class="sr-only"></span
             ></a>
           </li>
@@ -48,9 +48,7 @@
               O Nama
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="../Pilon_Page/Pilon.html"
-                >Denis Pilon</a
-              >
+              <a class="dropdown-item" href="Pilon.html">Denis Pilon</a>
               <a class="dropdown-item active" href="#">Dorijan Polanc</a>
             </div>
           </li>
@@ -58,14 +56,111 @@
       </div>
     </nav>
 
-    <main></main>
+    <main>
+      <div class="displayFlex ColorSection AddWithSpace">
+        <div>
+          <img
+            id="Polanc2Img"
+            class="Images"
+            src="Polanc2.bmp"
+            alt="Polanc"
+            onclick="ImgBigger('Polanc2Img')"
+          />
+        </div>
+        <div class="MainTextSection">
+          <h2 style="margin-bottom: 20px">Dorijan Polanc</h2>
+
+          <h3>Osnovne informacije:</h3>
+          <p>
+            Datum rođenja: 12.4.2000. <br />
+            Mjesto stanovanje: Osijek <br />
+            Radni odnos: student <br />
+            Obrazovanje: <br />
+            Završena osnovna škola u
+            <a href="https://belisce.hr/" class="LinkStyle">Belišću</a>:
+            <a href="http://os-ikukuljevica-belisce.skole.hr/" class="LinkStyle"
+              >Osnovna Škola Ivana Kukuljevića Belišće</a
+            >
+            <br />
+            Završena srednja škola za elektrotehničara:
+            <a href="https://ss-valpovo.hr/" class="LinkStyle"
+              >Srednja škola Valpovo</a
+            >
+            <br />
+            Trenutno studiram na fakultetu:
+            <a href="https://www.ferit.unios.hr/2021/" class="LinkStyle"
+              >FERIT</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="displayFlex ColorSection AddWithSpace">
+        <div class="MainTextSection">
+          <h2 style="margin-bottom: 20px">Radnos iskustvo:</h2>
+          <p>
+            Od radnoga iskustva koje sam stekao do sada bih mogao izdvojiti rad
+            na lijetnoj praksi tijekom srednje škole u
+            <a href="https://www.teo-belisce.hr/" class="LinkStyle"
+              >TEO-Belišće</a
+            >.
+          </p>
+          <p>
+            Isto tako tijekom srednje škole sam boravio u Španjolskoj u Sevilli
+            te sam tamo radio praksu u tvrtci
+            <a href="https://en.maccorobotics.com/" class="LinkStyle"
+              >Macco Robotics</a
+            >.Tamo sam radio jednostavne programe za robote. To je svo radno
+            iskustvo koje sam do sada stekao.
+          </p>
+          <p>
+            Ali do sada sam uspio napraviti par projekata privatno koje je
+            moguče pogledati na mojem git računu:
+            <a href="https://github.com/Reli12" class="LinkStyle">Git profil</a>
+          </p>
+        </div>
+        <div>
+          <img
+            id="PolancImg1"
+            class="Images"
+            src="Polanc1.jpeg"
+            alt="Polanc"
+            onclick="ImgBigger('PolancImg1')"
+          />
+        </div>
+      </div>
+
+      <div class="ColorSection AddWithSpace Video">
+        <div>
+          <h2>Video:</h2>
+          <video width="320" height="240" controls>
+            <source src="Polanc.mp4" type="video/mp4" />
+
+            Your browser does not support the video tag.
+          </video>
+          <h2>Audio:</h2>
+          <audio controls>
+            <source src="Polanc.mp3" type="audio/mpeg" />
+            Your browser does not support the audio tag.
+          </audio>
+        </div>
+      </div>
+    </main>
 
     <footer>
       <div class="ColorSection FooterSection">
         <div>
           Drugi studenti koji bih vas mogli zanimati:
-          <a href="#" class="LinkStyle">Prvi student</a>
-          <a href="#" class="LinkStyle">Drugi student</a>
+          <a
+            href="https://bernatovictisaiportfolio.netlify.app/?fbclid=IwAR2Rdv1FzMBhspZqku2c-DEMuNjLiFSZfQBlT5az-yv2HscQ7gHHSrzHzes"
+            class="LinkStyle"
+            >Kolege 1</a
+          >
+          <a
+            href="https://ersetic-slukan.netlify.app/?fbclid=IwAR1sYwOJrXotkbvfN9gRVtyIcU0fVFwmxgPofd0G9-9yE76E7zCKYeO-iII"
+            class="LinkStyle"
+            >Kolege 2</a
+          >
         </div>
         <div>Stranica je izrađena za vrijeme pohađanja Fakulteta:</div>
         <div>
@@ -84,6 +179,7 @@
         </div>
       </div>
     </footer>
+
     <!-- Boostrap js include -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -101,6 +197,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="../index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

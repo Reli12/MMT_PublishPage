@@ -17,6 +17,9 @@
     height: 50vh;
     width: 400px;
 }
+.FloatLeft{
+    float: left;
+}
 .displayFlex{
     display: flex;    
 }
@@ -42,6 +45,10 @@
     background-color: #EFF1F3;
     border-radius: 5px;
     border:2px solid #EFF1F3;
+}
+.Video{
+    text-align: center;
+
 }
 /*Footer section*/
 .FooterSection{
