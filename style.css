@@ -15,7 +15,7 @@
 /*Card main Section*/
 .Images{
     height: 50vh;
-    width: 400px;
+    width: 380px;
 }
 .FloatLeft{
     float: left;
@@ -49,6 +49,10 @@
 .Video{
     text-align: center;
 
+}
+.AddSpace{
+    display: flex;
+    justify-content: space-between;
 }
 /*Footer section*/
 .FooterSection{
